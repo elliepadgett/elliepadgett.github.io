@@ -128,11 +128,11 @@ ul li:hover ul.dropdown {
 /* BANNER IMAGE */
 .banner-img {
     /* Use "linear-gradient" to add a darken background effect to the image, makes the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url("banner-full.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url("../img/banner-full.jpg");
   
     /* Set a specific height */
     height: 250px;
-    width: 100%;
+    width: auto;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -167,8 +167,7 @@ ul li:hover ul.dropdown {
 
 /* selfie image */
 .selfie-img {
-
-    height: 500px;
+    height: 450px;
     width:auto;
     border: 2px solid #ddd;
     border-radius: 4px;
