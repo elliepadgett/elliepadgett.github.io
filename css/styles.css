@@ -14,10 +14,24 @@ h1 {
     /* font-style: oblique */
 }
 
+h2 {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color:#7a8697;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color:#223a5a;
+    margin-right: 10px;
+    font-style: bold;
+}
+
 p {
     font-family: Verdana, sans-serif;
-    margin-right: 80px;
-    margin-left: 80px;
     position: relative;
     text-align: center;
     color: #223a5a;
@@ -32,7 +46,6 @@ p {
 
 /* for holding main menu buttons */
 .container {
-    /* height: 200px; */
     display: flex;
     position: relative;
     flex-direction: row;
@@ -62,7 +75,7 @@ a:active {
     text-decoration: none;
 }
 
-#resume:hover, #resume:active {
+#resume-link:hover, #resume-link:active {
     text-decoration: underline;
 }
 
@@ -127,9 +140,6 @@ ul li:hover ul.dropdown {
 
 /* BANNER IMAGE */
 .banner-img {
-    /* Use "linear-gradient" to add a darken background effect to the image, makes the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url("../img/banner-full.jpg");
-  
     /* Set a specific height */
     height: 250px;
     width: auto;
@@ -139,6 +149,15 @@ ul li:hover ul.dropdown {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+#about-me {
+    /* Use "linear-gradient" to add a darken background effect to the image, makes the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url("../img/banner-full.jpg");
+}
+#resume-banner {
+    /* Use "linear-gradient" to add a darken background effect to the image, makes the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url("../img/solar-system.jpg");
 }
   
 /* Place text in the middle of the image */
@@ -191,13 +210,6 @@ ul li:hover ul.dropdown {
     color:#223a5a
 }
 
-h2 {
-    font-family: Verdana, sans-serif;
-    font-size: 16px;
-    text-align: left;
-    color:#7a8697;
-    margin-top: 10px;
-}
 
 
 
