@@ -61,6 +61,19 @@ p {
     margin-bottom: 10px;
 }
 
+#home-title {
+    flex-direction: column;
+}
+
+#header {
+    justify-content: space-between;
+}
+
+.rectangle {
+    background-image: url(../img/clear-icon.png);
+    width: 256px;
+}
+
 /* for holding main menu buttons */
 .container {
     display: flex;
@@ -131,6 +144,7 @@ a:active {
     padding: 16px;
     color: #223a5a;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .menu li a:hover {
@@ -162,7 +176,7 @@ a:active {
     background-color: #ffffff;
     color: #334257;
     padding: 16px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: Candara, sans-serif;
     border: none;
     cursor: pointer;
@@ -209,7 +223,7 @@ a:active {
 }
 #outdoor-banner {
     /* Use "linear-gradient" to add a darken background effect to the image, makes the text easier to read */
-    background-image: radial-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.00)), url("../img/outdoor-banner.jpg");
+    background-image: radial-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.00)), url("../img/outdoor-banner.jpg");
     filter: saturate(2) sepia(0.2) contrast(140%);
 }
   
@@ -271,5 +285,11 @@ a:active {
     width: 80%;
     margin-bottom: 100px;
     align-items: initial;
+}
+
+#logo {
+    width: 75%;
+    height: auto;
+    padding-left: 20%;
 }
 
